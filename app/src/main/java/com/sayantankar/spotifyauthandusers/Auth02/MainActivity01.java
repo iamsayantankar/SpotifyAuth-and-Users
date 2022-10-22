@@ -170,6 +170,13 @@ public class MainActivity01 extends AppCompatActivity {
                     }
                 });
         mSpotifyAppRemote.getPlayerApi().seekTo(30000);
+        mSpotifyAppRemote.getPlayerApi().skipNext();
+        mSpotifyAppRemote.getPlayerApi().skipPrevious();
+        mSpotifyAppRemote.getPlayerApi().skipToIndex("music uri",0);
+        mSpotifyAppRemote.getPlayerApi().pause();
+        mSpotifyAppRemote.getPlayerApi().resume();
+
+
 
 //        mSpotifyAppRemote.getPlayerApi().getPlayerState();
 

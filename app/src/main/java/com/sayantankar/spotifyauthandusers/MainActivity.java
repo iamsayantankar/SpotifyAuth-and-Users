@@ -12,8 +12,6 @@ import android.view.View;
 import com.sayantankar.spotifyauthandusers.Auth01.GetOAuthId;
 import com.sayantankar.spotifyauthandusers.Auth02.MainActivity01;
 import com.sayantankar.spotifyauthandusers.Auth03.MyBroadcastReceiver;
-import com.sayantankar.spotifyauthandusers.Auth03.MyBroadcastReceiverSpotify;
-import com.sayantankar.spotifyauthandusers.Auth03.MyReceiver;
 
 import java.util.ArrayList;
 import java.util.List;

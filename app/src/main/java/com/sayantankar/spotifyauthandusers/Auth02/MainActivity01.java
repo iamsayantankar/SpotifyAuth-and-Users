@@ -23,44 +23,6 @@ public class MainActivity01 extends AppCompatActivity {
     private static final String REDIRECT_URI = "com.sayantankar.spotifyauthandusers://callback";
     private SpotifyAppRemote mSpotifyAppRemote;
 
-    private static final String clientId = "8e089619777f47a9a0ad9b2e55a08966";
-    private static final String clientSecret = "f5d3d7aae4cd4f169d6506fbbaefa3ff";
-    private static final String redirectUri = "com.sayantankar.spotifyauthandusers://callback";
-
-//    MyBroadcastReceiverSpotify  myBroadcastReceiverSpotify = new MyBroadcastReceiverSpotify();
-
-//    @Override
-//    protected void onStart() {
-//        super.onStart();
-//
-//        IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_ON);
-//        filter.addAction(Intent.ACTION_SCREEN_OFF);
-//        BroadcastReceiver mReceiver = new ScreenEventsReceiver();
-//        registerReceiver(mReceiver, "com.spotify.music.active");
-//
-//        myBroadcastReceiverSpotif
-//        Intent filter = new Intent(Intent.);
-//        registerReceiver(myBroadcastReceiverSpotify, com.spotify.music.active);
-//    }
-//
-//    public void mute(AudioManager audioManager){
-//
-//        audioManager.setStreamMute(am.STREAM_SYSTEM, true);
-//
-//    }
-//
-//    public void unMute(AudioManager audioManager){
-//
-//        audioManager.setStreamMute(am.STREAM_SYSTEM,false);
-//
-//    }
-
-//    @Override
-//    protected void onStop() {
-//        super.onStop();
-//        unregisterReceiver(airplaneModeChangeReceiver);
-//    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

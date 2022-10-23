@@ -62,7 +62,27 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
 
         }
 
+//        long timeSentInMs = intent.getLongExtra("timeSent", 0L);
 
+//        String action = intent.getAction();
+//
+//        if (action.equals(BroadcastTypes.METADATA_CHANGED)) {
+//            String trackId = intent.getStringExtra("id");
+//            String artistName = intent.getStringExtra("artist");
+//            String albumName = intent.getStringExtra("album");
+//            String trackName = intent.getStringExtra("track");
+//            int trackLengthInSec = intent.getIntExtra("length", 0);
+//            // Do something with extracted information...
+//        } else if (action.equals(BroadcastTypes.PLAYBACK_STATE_CHANGED)) {
+//            boolean playing = intent.getBooleanExtra("playing", false);
+//            //playing = intent.getBooleanExtra("playing", false);
+//
+//
+//            int positionInMs = intent.getIntExtra("playbackPosition", 0);
+//            // Do something with extracted information
+//        } else if (action.equals(BroadcastTypes.QUEUE_CHANGED)) {
+//            // Sent only as a notification, your app may want to respond accordingly.
+//        }
 
         Log.d("getData 2", bb);
 

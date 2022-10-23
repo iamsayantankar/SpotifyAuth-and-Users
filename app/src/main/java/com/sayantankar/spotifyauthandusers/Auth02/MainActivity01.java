@@ -125,7 +125,7 @@ public class MainActivity01 extends AppCompatActivity {
                     final Track track = playerState.track;
                     if (track != null) {
                         Log.d("getData: play song", track.uri + " by " + track.artist);
-                        Log.d("getData: play song", track.uri + " by " + track.artist);
+                        Log.d("getData: play song", String.valueOf(                                               mSpotifyAppRemote.getPlayerApi().getPlayerState().toString()));
                         Toast.makeText(this,  playerState.track.uri, Toast.LENGTH_SHORT).show();
 //                        Log.d("MainActivity",   " by " + track.artist.name);
 //                        Toast.makeText(this, "Trake Name: "+track.name+"\nartist: "+String.valueOf(track.artist)+"\nuri: "+String.valueOf(track.uri)+"\n imageUri: "+String.valueOf(track.imageUri)+track.album.toString()+track.isEpisode+track.artists, Toast.LENGTH_SHORT).show();
